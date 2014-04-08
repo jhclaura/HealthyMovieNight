@@ -1,0 +1,94 @@
+h1 {
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	color: #00C618;
+	font-weight: bold;
+	padding-top: 30px;
+	font-size: 50px;
+}
+
+h2 {
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	padding-bottom: 40px;
+	color: rgb(0,0,0);
+}
+
+p {
+	font-family: 'Amatic SC', cursive;
+	font-size: 18px;
+	text-align: center;
+	color: rgb(0,0,0);
+}
+
+button {
+	font-family: 'Amatic SC', cursive;
+	background-color:#599bb3;
+	color:#ffffff;
+	font-size: 16px;
+	border: 1px;
+	border-radius: 42px;
+	cursor:pointer;
+	outline: none;
+}
+
+button:hover{
+	background-color:#408c99;
+}
+
+button:active {
+	position:relative;
+	top:1px;
+}
+
+/*.searchButton{
+	width: 100px;
+	height: 50px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center
+}*/
+
+#articles {
+	text-align: center;
+	color: rgb(0,0,0);
+	font-size: 25px;
+}
+
+#articles2 {
+	text-align: center;
+	color: rgb(0,0,0);
+	font-size: 25px;
+}
+
+#searchButton {
+	background-color:#98ED00;
+	border: 1px;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Amatic SC', cursive;
+	font-size:20px;
+	font-weight:bold;
+	padding:15px 10px;
+	text-decoration:none;
+	outline: none;
+}
+#searchButton:hover {
+	background-color:#F7FE00;
+	color:#98ED00;
+}
+#searchButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+#middleBox{
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.9);
+	width: 400px;
+	left: 50%;
+	top: 5%;
+	margin-left: -200px;
+}
