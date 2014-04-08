@@ -1,0 +1,19 @@
+{
+  "name": "HealthyMovieNight",
+  "version": "0.0.0",
+  "description": "cool app",
+  "main": "script_new.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jhclaura/HealthyMovieNight.git"
+  },
+  "author": "Laura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhclaura/HealthyMovieNight/issues"
+  },
+  "homepage": "https://github.com/jhclaura/HealthyMovieNight"
+}
