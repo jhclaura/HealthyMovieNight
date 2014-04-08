@@ -21,7 +21,7 @@ function getFilepath(url){
 
   // Adds the absolute path to the directory of this file (server.js) and
   // adds "/public" to it, because our files are in the "public/" directory.
-  filepath = __dirname + '/public' + filepath;
+  filepath = __dirname + filepath;
 
   console.log('Getting filepath from url: ' + url + '. Filepath: ' + filepath);
   return filepath;
