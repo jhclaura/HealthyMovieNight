@@ -16,7 +16,7 @@ function getFilepath(url){
   // The "root" pathname is always "/", so we will return the "index.html"
   // instead of "/"
   if (filepath === '/') {
-    filepath = '/index.html';
+    filepath = '/public/index.html';
   }
 
   // Adds the absolute path to the directory of this file (server.js) and

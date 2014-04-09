@@ -23,7 +23,15 @@ app.get('/', function(req, res){
   //           person.myName);
 
   //handlebars render the temple of index
-  res.render('index');
+  //variable into templete
+  var data = { planet: 'Earth'};
+  var planetNames = [
+    'Mars',
+    'Venus',
+    'Mercury'
+  ];
+  data.planetNames = planetNames;
+  res.render('index', data);
 
 });
 
