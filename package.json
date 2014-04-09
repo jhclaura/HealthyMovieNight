@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jhclaura/HealthyMovieNight/issues"
   },
-  "homepage": "https://github.com/jhclaura/HealthyMovieNight"
+  "homepage": "https://github.com/jhclaura/HealthyMovieNight",
+  "dependencies": {
+    "express": "~4.0.0"
+  }
 }
